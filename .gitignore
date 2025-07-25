@@ -1,4 +1,8 @@
 .ipynb_checkpoints/
 *.pkl
+# Ignore CSVs everywhere...
 *.csv
+
+# ...except in the data/ folder
+!data/*.csv
 __pycache__/
